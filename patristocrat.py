@@ -45,9 +45,6 @@ encrypted = ""
 for c in encrypted_array:
   encrypted = encrypted + c
   a += 1
-  if a == 5:
-    encrypted = encrypted + " "
-    a = 0
 
 print "Guess the original statement! This is the encrypted code:"
 print encrypted
